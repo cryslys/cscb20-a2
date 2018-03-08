@@ -1,0 +1,101 @@
+/*** header nav ***/
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    background-color: #fff;
+}
+
+nav #logo {
+    float: left;
+}
+
+nav a {
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    color: #000;
+    text-decoration: none;
+    height: 25px;
+    padding: 15px 18px;
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 10px 0 0;
+    
+    background-color: #fff;
+    overflow: hidden;
+    float: right;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+nav a:hover {
+    background-color: antiquewhite;
+}
+
+.main {
+    margin-top: 30px;
+}
+
+
+
+/* titlecard */
+#titlecard h1 {
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+
+/*** main content elements ***/
+h2 {
+    font-family: 'Abel', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.boxes {
+    margin: auto;
+    max-width: 600px;
+}
+
+.boxes hr {
+    border: none;
+    height: 1px;
+    background-image: linear-gradient(to left, #fff, grey, #fff);
+}
+
+.box {
+    padding: 10px 0;
+}
+
+
+
+/* footer */
+footer {
+    border-top: 1px solid grey;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 11px;
+}
