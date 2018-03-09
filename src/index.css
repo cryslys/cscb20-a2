@@ -52,9 +52,11 @@ nav li a {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     margin-bottom: 0;
+    transition: 300ms;
+    transition-timing-function: ease-in;
 }
 
-nav li.currentpage {
+nav li.currentpage a {
     background-color: mistyrose;
 }
 
@@ -225,6 +227,5 @@ footer img {
         border-top: 1px solid lightgrey;
 
     }
-
 
 }
