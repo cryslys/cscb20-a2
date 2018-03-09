@@ -7,13 +7,24 @@
         <meta name="description" content="Introduction to Databases and Web Applications">
         <link rel="stylesheet" type="text/css" href="index.css">
         <link href="https://fonts.googleapis.com/css?family=Abel|Montserrat" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.0.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.toggle').click(function(){
+                    $('ul').toggleClass('active');
+                })
+            })
+        </script>
     </head>
     <body>
         <!--Top Sticky Header-->
         <header>
             <nav>
+                <div class="toggle">
+                    <img src="img/hamburger.png">
+                </div>
                 <a id="logo" href="index.html">CSCB20</a>
-                <div class="menu" style="float: right;">
+                <div class="menu">
                 <ul>
                     <li><a href="http://www.utsc.utoronto.ca/iits/computer-labs" target="_blank">UTSC Labs</a></li>
                     <li><a href="https://goo.gl/forms/KO7B3aVu4CZkU3Xr1" target="_blank">Anon Feedback</a></li>
@@ -29,13 +40,15 @@
 
         <!--Main Content-->
         <div class="main">
-            <section id="titlecard">
-                <div class="container">
+            <!--Titlecard -->
+            <div id="titlecard_home">
+                <div>
                     <h1>
                         Welcome to CSCB20
                     </h1>
                 </div>
-            </section>
+                <div></div>
+            </div>
             
             <section class="boxes">
                 <div class="container">
