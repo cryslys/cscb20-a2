@@ -31,7 +31,7 @@ nav a {
     text-decoration: none;
     padding: 19.5px 15px;
     display: block;
-    transition: 300ms;
+    transition: 100ms;
     transition-timing-function: ease-in;
 }
 
@@ -57,7 +57,7 @@ nav li a {
 }
 
 nav li.currentpage a {
-    background-color: mistyrose;
+    background-color: lightgray;
 }
 
 nav a:hover {
@@ -89,6 +89,8 @@ nav a:hover {
     left: 50%;
     transform: translate(-50%, -50%); 
 }
+
+
 
 /* img */
 #titlecard div:nth-child(2){
@@ -201,6 +203,9 @@ footer img {
     width: inherit;
 }
 
+
+
+
 @media (max-width: 1000px) {
 
     .toggle {
@@ -225,6 +230,7 @@ footer img {
         color: black;
         background: rgba(255, 255, 255, 0.9);
         border-top: 1px solid lightgrey;
+        padding: 20px 15px;
 
     }
 
