@@ -2,18 +2,23 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>CSCB20 Course Page | Announcements</title>
+        <title>CSCB20 | Announcements</title>
+        <link rel="icon" href="img/favicon.png">
         <meta name="viewport" content="width=device-width">
         <meta name="description" content="Introduction to Databases and Web Applications">
         <link rel="stylesheet" type="text/css" href="index.css">
         <link href="https://fonts.googleapis.com/css?family=Abel|Montserrat" rel="stylesheet">
-        <script src="https://code.jquery.com/jquery-3.3.0.js"></script>
         <script type="text/javascript">
-            $(document).ready(function(){
-                $('.toggle').click(function(){
-                    $('ul').toggleClass('active');
-                })
-            })
+            document.addEventListener("DOMContentLoaded", function(){
+                document.getElementsByClassName("toggle")[0].addEventListener("click", function(){
+                    var ul = document.getElementsByTagName("ul")[0];
+                    if (ul.getAttribute("class") !== "active"){
+                        ul.setAttribute("class", "active");
+                    } else {
+                        ul.removeAttribute("class");
+                    }
+                });
+            });
         </script>
     </head>
     <body>
