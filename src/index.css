@@ -1,4 +1,5 @@
 /*** header nav ***/
+
 body {
     margin: 0;
     padding: 0;
@@ -16,8 +17,8 @@ nav {
     height: 68px;
     width: 100%;
     box-sizing: border-box;
-    background-color:white;
-    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
 }
 
 nav #logo {
@@ -42,13 +43,10 @@ nav ul {
     float: right;
 }
 
-
 nav li a {
     padding: 25.5px 15px;
-
     position: relative;
     display: block;
-
     font-family: 'Helvetica', sans-serif;
     font-size: 15px;
     margin-bottom: 0;
@@ -70,31 +68,29 @@ nav a:hover {
     margin-top: 68px;
 }
 
-
-
 /** titlecard **/
+
 #titlecard {
     position: relative;
-    height:400px;
+    height: 400px;
 }
 
 /* text */
-#titlecard div:nth-child(1){
-    text-shadow: 3px 3px 5px rgba(0,0,0,.5);
+
+#titlecard div:nth-child(1) {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, .5);
     color: white;
     z-index: -1;
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
 }
 
-
-
 /* img */
-#titlecard div:nth-child(2){
-    
+
+#titlecard div:nth-child(2) {
     background-size: cover;
     display: block;
     position: absolute;
@@ -104,8 +100,8 @@ nav a:hover {
     z-index: -2;
 }
 
-
 /*** main content elements ***/
+
 h2 {
     font-family: 'Trebuchet MS', sans-serif;
 }
@@ -136,9 +132,8 @@ p {
     padding: 10px 0;
 }
 
-
-
 /* footer */
+
 footer {
     border-top: 1px solid grey;
     padding: 10px;
@@ -183,9 +178,11 @@ footer img {
     margin-left: 10px;
 }
 
+#footy {
+    margin-bottom: 100px;
+}
 
 /*** toggle for mobile view ***/
-
 
 .toggle {
     display: none;
@@ -203,26 +200,19 @@ footer img {
     width: inherit;
 }
 
-
-
-
-@media (max-width: 1000px) {
-
+@media (max-width: 950px) {
     .toggle {
         display: block;
     }
-
     nav ul {
         display: none;
         width: 100%;
         top: 0;
-        box-shadow: 0 5px 15px rgba(0,0,0,.2);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
     }
-
     nav ul.active {
         display: block;
     }
-
     nav li a {
         margin: 0;
         display: block;
@@ -231,7 +221,5 @@ footer img {
         background: rgba(255, 255, 255, 0.9);
         border-top: 1px solid lightgrey;
         padding: 20px 15px;
-
     }
-
 }
