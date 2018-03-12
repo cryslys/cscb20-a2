@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-weight: 700;
 }
 
@@ -13,7 +13,7 @@ nav {
     top: 0;
     z-index: 1;
     position: fixed;
-    height: 70px;
+    height: 68px;
     width: 100%;
     box-sizing: border-box;
     background-color:white;
@@ -25,7 +25,7 @@ nav #logo {
 }
 
 nav a {
-    font-family: 'Abel', sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     font-size: 25px;
     color: #000;
     text-decoration: none;
@@ -49,7 +49,7 @@ nav li a {
     position: relative;
     display: block;
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 15px;
     margin-bottom: 0;
     transition: 300ms;
@@ -67,7 +67,7 @@ nav a:hover {
 .main {
     z-index: 0;
     position: relative;
-    margin-top: 70px;
+    margin-top: 68px;
 }
 
 
@@ -107,11 +107,11 @@ nav a:hover {
 
 /*** main content elements ***/
 h2 {
-    font-family: 'Abel', sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 15px;
     line-height: 20px;
 }
