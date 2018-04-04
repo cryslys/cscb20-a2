@@ -4,6 +4,7 @@
     border-collapse: collapse;
     overflow-x: auto; /* scroll bar appears when visible area is smaller than table */
     margin-bottom: 10px;
+    width: 100%;
 }
 
 .table p {

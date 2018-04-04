@@ -8,7 +8,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CSCB20 | Lectures</title>
+    <title>CSCB20 | Course Materials</title>
     <link rel="icon" href="img/favicon.png">
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Introduction to Databases and Web Applications">
@@ -29,25 +29,25 @@
             <div class="menu">
                 <ul id="navBar">
                     <li>
-                        <a href="announcements.html">Announcements</a>
-                    </li>
-                    <li class="currentpage">
-                        <a href="lectures.html">Lectures</a>
+                        <a href="announcements.php">Announcements</a>
                     </li>
                     <li>
-                        <a href="assignments.html">Assignments</a>
+                        <a href="course.php">Course Materials</a>
                     </li>
                     <li>
-                        <a href="https://piazza.com/class/jcpjjp5l4bywd" target="_blank">Piazza</a>
+                        <a href="schedule.php">Schedule</a>
                     </li>
                     <li>
-                        <a href="https://markus.utsc.utoronto.ca/cscb20w18" target="_blank">Markus</a>
+                        <a href="grades.php" target="_blank">Grades</a>
                     </li>
                     <li>
-                        <a href="https://goo.gl/forms/KO7B3aVu4CZkU3Xr1" target="_blank">Anon Feedback</a>
+                        <a href="feedback.php" target="_blank">Feedback</a>
                     </li>
                     <li>
-                        <a href="http://www.utsc.utoronto.ca/iits/computer-labs" target="_blank">UTSC Labs</a>
+                        <a href="links.php" target="_blank">Links</a>
+                    </li>
+                    <li>
+                        <a href="logout.php" target="_blank">Logout</a>
                     </li>
                 </ul>
             </div>
@@ -59,19 +59,19 @@
         <div id="titlecard">
             <div id="tcText">
                 <h1>
-                    Lectures
+                    Assignments
                 </h1>
             </div>
-            <div id="tcImg" style="background-image: url('img/lectures.jpg');"></div>
+            <div id="tcImg" style="background-image: url('img/assignments.jpg');"></div>
         </div>
 
         <div class="boxes">
 
             <!-- Box 1 -->
             <div class="box">
-                <h2>Lecture Schedule</h2>
+                <h2>Overview</h2>
                 <p>
-                    Mondays 9am-11am. There is only one lecture section for this course. Please be sure to attend!
+                    Here are the handouts for the assignments, lectures and tutorials. I will be posting the exercise and assignment handouts here. All exercises and assignments will be submitted on MarkUs.
                 </p>
             </div>
             <hr>
@@ -205,7 +205,175 @@
                 </div>
 
             </div>
+            <hr>
 
+            <!-- Box 2 -->
+            <div class="box">
+                <h2>Tutorials</h2>
+
+                <div class="table">
+
+                    <!-- column headers row -->
+                    <div class="header-row">
+                        <div class="col">
+                            <p>Handout</p>
+                        </div>
+                        <div class="col">
+                            <p>Topic</p>
+                        </div>
+                        <div class="col">
+                            <p>Solutions</p>
+                        </div>
+                    </div>
+
+                    <!-- row 1 -->
+                    <div class="row">
+                        <div class="col">
+                            <p>
+                                <a href="http://www.utsc.utoronto.ca/~bretscher/b20/tutorials/t1/" target="_blank">Week 2</a>
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p>Python, Command line</p>
+                        </div>
+                        <div class="col">
+                        </div>
+                    </div>
+
+                    <!-- row 2 -->
+                    <div class="row">
+                        <div class="col">
+                            <p>
+                                <a href="http://www.utsc.utoronto.ca/~bretscher/b20/tutorials/t2/relational.pdf" target="_blank">Week 3</a>
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p>Relational Algebra</p>
+                        </div>
+                        <div class="col">
+                        </div>
+                    </div>
+
+                    <!-- row 3 -->
+                    <div class="row">
+                        <div class="col">
+                            <p>
+                                Week 4<br>
+                                <a href="http://www.utsc.utoronto.ca/~bretscher/b20/tutorials/t3/index.html" target="_blank">Handout</a>
+                                 / 
+                                 <a href="http://www.utsc.utoronto.ca/~bretscher/b20/tutorials/t3/university.sql" target="_blank">university.sql</a>
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p>MySQL</p>
+                        </div>
+                        <div class="col">
+                            <p>
+                                <a href="http://www.utsc.utoronto.ca/~bretscher/b20/tutorials/t3/query_solns.html" target="_blank">Query Solutions</a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <hr>
+
+            <!-- Box 4 -->
+            <div class="box">
+                <h2>Assignments</h2>
+                <div class="table">
+
+                    <!-- column headers row -->
+                    <div class="header-row">
+                        <div class="col">
+                            <p>Handouts</p>
+                        </div>
+                        <div class="col">
+                            <p>Topic/Weightage</p>
+                        </div>
+                        <div class="col">
+                            <p>Due Date</p>
+                        </div>
+                    </div>
+
+                    <!-- row 1 -->
+                    <div class="row">
+                        <div class="col">
+                            <p>
+                                <a href="http://www.utsc.utoronto.ca/~bretscher/b20/assignments/a1/" target="_blank">A1</a>
+                                /
+                                <a href="http://www.utsc.utoronto.ca/~bretscher/b20/assignments/a1/soln.pdf" target="_blank">Solutions</a>
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p>Relational Algebra and MySQL (15%)</p>
+                        </div>
+                        <div class="col">
+                            <p>
+                                <b>Part 1</b>: Wednesday, 1 Feb, 11.59pm
+                                <br>
+                                <b>Part 2, 3</b>: Saturday, 11 Feb, 11.59pm (For 5% bonus) OR Friday, 17 Feb, 11.59pm
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- row 2 -->
+                    <div class="row">
+                        <div class="col">
+                            <p>
+                                <a href="http://www.utsc.utoronto.ca/~bretscher/b20/assignments/a2/" target="_blank">A2</a>
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p>HTML, CSS, PHP (15%)</p>
+                        </div>
+                        <div class="col">
+                            <p>
+                                <b>Part 1</b>: Friday, 10 March, 11.59pm
+                                <br>
+                                <b>Part 2</b>: Friday, 19 March, 11.59pm
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- row 3 -->
+                    <div class="row">
+                        <div class="col">
+                            <p>
+                                <a href="http://www.utsc.utoronto.ca/~bretscher/b20/assignments/a3/a3.html" target="_blank">A3</a>
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p>Web Applications and Databases (15%)</p>
+                        </div>
+                        <div class="col">
+                            <p>
+                                Friday, 31 March, 11.59pm
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <hr>
+
+            <!-- Box 3 -->
+            <div class="box">
+                <h2>FAQ</h2>
+                <p>
+                    <b>If the mysql portion asks for a director or actor without specifying which attributes, what should I
+                        return?</b>
+                    <br> Return the first name, last name.
+
+                    <br>
+                    <br>
+                    <b>Does our webpage need to adapt to mobile devices?</b>
+                    <br> You are not required to do this. At least not for A2. However, if you are feeling adventurous and would
+                    like to make this work for A2, and if done well, We *may* give you some bonus marks.
+                </p>
+            </div>
         </div>
 
         <footer>
